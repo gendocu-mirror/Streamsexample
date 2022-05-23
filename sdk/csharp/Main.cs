@@ -503,11 +503,11 @@ namespace Streams {
   /// [Example] {
   ///     "number": {
   ///        "number": [77],
-  ///        "s": ["the-string"],
+  ///        "s": ["the-string"]
   ///     },
   ///     "s": {
   ///        "number": [-37],
-  ///        "s": ["a-string"],
+  ///        "s": ["a-string"]
   ///     },
   /// }
   /// </summary>
