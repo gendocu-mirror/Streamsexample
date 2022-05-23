@@ -139,10 +139,6 @@ func (x *SimpleMsg2) GetS() []string {
 	return nil
 }
 
-// [Example] {
-//     "number": [13],
-//     "s": ["some-other-string"]
-// }
 type SimpleMsg3 struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

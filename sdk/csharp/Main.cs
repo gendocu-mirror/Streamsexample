@@ -499,12 +499,6 @@ namespace Streams {
 
   }
 
-  /// <summary>
-  /// [Example] {
-  ///     "number": [13],
-  ///     "s": ["some-other-string"]
-  /// }
-  /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
