@@ -21,6 +21,10 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
+// [Example]{
+//    "number": 2,
+//    "s": "example-string",
+// }
 type SimpleMsg1 struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
@@ -76,6 +80,10 @@ func (x *SimpleMsg1) GetS() string {
 	return ""
 }
 
+// [Example] {
+//     "number": [7],
+//     "s": ["another-string"],
+// }
 type SimpleMsg2 struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
@@ -131,6 +139,10 @@ func (x *SimpleMsg2) GetS() []string {
 	return nil
 }
 
+// [Example] {
+//     "number": [13],
+//     "s": ["some-other-string"],
+// }
 type SimpleMsg3 struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache
