@@ -55,12 +55,6 @@ namespace Streams {
 
   }
   #region Messages
-  /// <summary>
-  /// [Example]{
-  ///    "number": 2,
-  ///    "s": "example-string"
-  /// }
-  /// </summary>
   public sealed partial class SimpleMsg1 : pb::IMessage<SimpleMsg1>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -287,12 +281,6 @@ namespace Streams {
 
   }
 
-  /// <summary>
-  /// [Example] {
-  ///     "number": [7],
-  ///     "s": ["another-string"]
-  /// }
-  /// </summary>
   public sealed partial class SimpleMsg2 : pb::IMessage<SimpleMsg2>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -499,18 +487,6 @@ namespace Streams {
 
   }
 
-  /// <summary>
-  /// [Example] {
-  ///     "number": [{
-  ///        "number": [77],
-  ///        "s": ["the-string"]
-  ///     }],
-  ///     "s": [{
-  ///        "number": [-37],
-  ///        "s": ["a-string"]
-  ///     }]
-  /// }
-  /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
