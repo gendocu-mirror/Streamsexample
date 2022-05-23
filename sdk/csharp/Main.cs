@@ -499,6 +499,18 @@ namespace Streams {
 
   }
 
+  /// <summary>
+  /// [Example] {
+  ///     "number": {
+  ///        "number": [77],
+  ///        "s": ["the-string"],
+  ///     },
+  ///     "s": {
+  ///        "number": [-37],
+  ///        "s": ["a-string"],
+  ///     },
+  /// }
+  /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
