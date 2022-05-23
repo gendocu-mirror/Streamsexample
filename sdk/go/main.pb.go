@@ -23,7 +23,7 @@ const (
 
 // [Example]{
 //    "number": 2,
-//    "s": "example-string",
+//    "s": "example-string"
 // }
 type SimpleMsg1 struct {
 	state         protoimpl.MessageState
@@ -82,7 +82,7 @@ func (x *SimpleMsg1) GetS() string {
 
 // [Example] {
 //     "number": [7],
-//     "s": ["another-string"],
+//     "s": ["another-string"]
 // }
 type SimpleMsg2 struct {
 	state         protoimpl.MessageState
@@ -141,7 +141,7 @@ func (x *SimpleMsg2) GetS() []string {
 
 // [Example] {
 //     "number": [13],
-//     "s": ["some-other-string"],
+//     "s": ["some-other-string"]
 // }
 type SimpleMsg3 struct {
 	state         protoimpl.MessageState

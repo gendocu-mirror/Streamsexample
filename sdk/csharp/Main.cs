@@ -58,7 +58,7 @@ namespace Streams {
   /// <summary>
   /// [Example]{
   ///    "number": 2,
-  ///    "s": "example-string",
+  ///    "s": "example-string"
   /// }
   /// </summary>
   public sealed partial class SimpleMsg1 : pb::IMessage<SimpleMsg1>
@@ -290,7 +290,7 @@ namespace Streams {
   /// <summary>
   /// [Example] {
   ///     "number": [7],
-  ///     "s": ["another-string"],
+  ///     "s": ["another-string"]
   /// }
   /// </summary>
   public sealed partial class SimpleMsg2 : pb::IMessage<SimpleMsg2>
@@ -502,7 +502,7 @@ namespace Streams {
   /// <summary>
   /// [Example] {
   ///     "number": [13],
-  ///     "s": ["some-other-string"],
+  ///     "s": ["some-other-string"]
   /// }
   /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>
