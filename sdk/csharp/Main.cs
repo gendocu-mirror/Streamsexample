@@ -501,14 +501,14 @@ namespace Streams {
 
   /// <summary>
   /// [Example] {
-  ///     "number": {
+  ///     "number": [{
   ///        "number": [77],
   ///        "s": ["the-string"]
-  ///     },
-  ///     "s": {
+  ///     }],
+  ///     "s": [{
   ///        "number": [-37],
   ///        "s": ["a-string"]
-  ///     }
+  ///     }]
   /// }
   /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>
