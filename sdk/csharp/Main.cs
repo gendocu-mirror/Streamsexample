@@ -42,7 +42,7 @@ namespace Streams {
             "bTMSFi5nb29nbGUucHJvdG9idWYuRW1wdHkaEy5zdHJlYW1zLlNpbXBsZU1z",
             "ZzMwARI7CgtCb3RoU3RyZWFtMxITLnN0cmVhbXMuU2ltcGxlTXNnMxoTLnN0",
             "cmVhbXMuU2ltcGxlTXNnMygBMAFCM1oxZ2l0LmdlbmRvY3UuY29tL2dlbmRv",
-            "Y3UvU3RyZWFtc2V4YW1wbGUuZ2l0L3Nkay9nb2IGcHJvdG8z"));
+            "Y3UvU3RyZWFtc0V4YW1wbGUuZ2l0L3Nkay9nb2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

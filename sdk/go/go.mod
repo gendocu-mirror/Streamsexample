@@ -1,3 +1,3 @@
-module git.gendocu.com/gendocu/Streamsexample.git/sdk/go
+module git.gendocu.com/gendocu/StreamsExample.git/sdk/go
 
 go 1.17
