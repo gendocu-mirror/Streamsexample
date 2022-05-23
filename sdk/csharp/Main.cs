@@ -508,7 +508,7 @@ namespace Streams {
   ///     "s": {
   ///        "number": [-37],
   ///        "s": ["a-string"]
-  ///     },
+  ///     }
   /// }
   /// </summary>
   public sealed partial class SimpleMsg3 : pb::IMessage<SimpleMsg3>

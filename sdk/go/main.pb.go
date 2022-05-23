@@ -147,7 +147,7 @@ func (x *SimpleMsg2) GetS() []string {
 //     "s": {
 //        "number": [-37],
 //        "s": ["a-string"]
-//     },
+//     }
 // }
 type SimpleMsg3 struct {
 	state         protoimpl.MessageState
